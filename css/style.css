@@ -1,0 +1,37 @@
+.products_box .item {
+    z-index: 2;
+    position: absolute;
+    padding: 30px 50px 50px 25px;
+}
+
+.products_box .item .interaction {
+    position: absolute;
+    border-radius: 30px;
+    border: 1.5px solid #fff;
+    padding: 0px 6px;
+    color: #fff;
+    background: #0000006e;
+}
+
+.products_box .item .interaction span {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none;     /* IE 10+ and Edge */
+    user-select: none;         /* Standard syntax */
+    font-size: 24px;
+    transition: .2s ease-in-out;
+    opacity: 0;
+}
+.products_box .item .interaction span.active {
+    opacity: 1;
+}
+
+.products_box .item .content {
+    min-width: 190px;
+    background: #fff;
+    padding: 20px;
+    color: #111;
+    opacity: 0;
+    position: absolute;
+    margin: 30px 0 0 -80px;
+    transition: .2s ease-in-out;
+}
