@@ -1,8 +1,7 @@
 # How to use ?
 Create a HTML Code Box and add this following HTML elements:
 <pre>
-<code>
-&lt;div class="products_box" id="..[Indentifier For each image].."&gt;
+<code>&lt;div class="products_box" id="..[Indentifier For each image].."&gt;
 &nbsp; &nbsp; &lt;img src="..[Image goes here].."&gt;
 &nbsp; &nbsp; &lt;div class="item" style="position: absolute; left: 5.5%; top: 60%;"&gt;
 &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="interaction"&gt;
@@ -23,6 +22,5 @@ Create a HTML Code Box and add this following HTML elements:
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;b&gt;&lt;a href="..." target="_blank"&gt;เคมีอาหาร&lt;/a&gt;&lt;/b&gt;
 &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;
 &nbsp; &nbsp; &lt;/div&gt;
-&lt;/div&gt;
-</code>
+&lt;/div&gt;</code>
 </pre>
